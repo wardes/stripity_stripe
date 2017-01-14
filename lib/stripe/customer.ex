@@ -55,7 +55,7 @@ defmodule Stripe.Customer do
     },
     source: [:create, :retrieve, :update],
     sources: [:retrieve],
-    subscriptiones: [:retrieve],
+    subscriptions: [:retrieve],
     tax_percent: [:create],
     trial_end: [:create]
   }
