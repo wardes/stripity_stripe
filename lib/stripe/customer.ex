@@ -19,7 +19,7 @@ defmodule Stripe.Customer do
   defstruct [
     :id, :account_balance, :business_vat_id, :created, :currency,
     :default_source, :delinquent, :description, :email, :livemode,
-    :metadata
+    :metadata, :subscriptions
   ]
 
   @relationships %{}
